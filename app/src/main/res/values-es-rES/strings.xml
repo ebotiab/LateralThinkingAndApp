@@ -3,6 +3,10 @@
 
     <string name="app_name">Pensamiento Lateral</string>
 
+    <string name="welcome">¿Está tu pensamiento lateral preparado?</string>
+    <string name="menu">Accede al menu</string>
+    <string name="appInfo">Sobre esta aplicación</string>
+
     <string name="titlePuzzle1">El hombre en el ascensor</string>
     <string name="titlePuzzle2">El hombre que se ahorcó</string>
     <string name="titlePuzzle3">El hombre solitario</string>

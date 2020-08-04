@@ -2,6 +2,11 @@
 
     <string name="app_name">Lateral Thinking</string>
 
+    <string name="welcome">Is your lateral thinking ready?</string>
+    <string name="menu">Display menu</string>
+    <string name="appInfo">About the app</string>
+
+
     <string name="titlePuzzle1">The man in the elevator</string>
     <string name="titlePuzzle2">The man who hanged himself</string>
     <string name="titlePuzzle3">Lateral Thinking</string>
