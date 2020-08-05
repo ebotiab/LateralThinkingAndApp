@@ -16,7 +16,7 @@ public class Puzzle6Activity extends AppCompatActivity {
 
     //    Starts activity with the next puzzle
     public void previousPuzzle (View view){
-        Intent i = new Intent(this, Puzzle6Activity.class);
+        Intent i = new Intent(this, Puzzle5Activity.class);
         startActivity(i);
     }
 
