@@ -22,7 +22,7 @@
     <string name="puzzle4">Un hombre yace muerto en un prado. Cerca de él hay un paquete cerrado. No hay ninguna otra criatura en el prado. ¿Cómo ha muerto?</string>
     <string name="puzzle5">Anthony y Cleopatra estuvieron juntos en una casa durante el fin de semana. Todas las puertas y ventanas estaban cerradas y nadie más estaba en la casa. El lunes, la criada entró con una llave y al abrir la puerta de la habitación principal vio que había vidrios rotos en el piso, aunque las ventanas estaban intactas. Anthony estaba dormido en la silla. La criada supo al instante que Cleopatra había sido asesinada, aunque su cuerpo no se encontraba por ningún lado y no había sangre en ningún lado .......... ¿Cómo lo supo?</string>
     <string name="puzzle6">Sobre la mesa hay dos vasos. Uno contiene agua y el otro vino. Ambos contienen exactamente el mismo volumen de líquido. Si se toma una cucharada de agua del vaso correspondiente y se la vierte en el vaso de vino, y luego se toma una cucharada del vaso de vino y se la vierte en el de agua, ambos líquidos quedan contaminados. Pero, ¿cuál es el más contaminado? ¿Contiene el agua una mayor proporción de vino que el vino de agua o es al revés?</string>
-    <string name="puzzle7">Por su brevedad, simplicidad y dificultad, este acertijo tiene algunos méritos para ser considerado el mejor acertijo de pensamiento lateral de todos los tiempos. Un hombre entró en un bar y solicitó al camarero un vaso de agua. Nunca antes se habían encontrado. El cantinero sacó un arma de debajo del mostrador y apuntó al hombre. El hombre dijo: “Gracias” y se fue. ¿Por qué?</string>
+    <string name="puzzle7">Por su brevedad, simplicidad y dificultad, este acertijo tiene algunos méritos para ser considerado el mejor acertijo de pensamiento lateral de todos los tiempos.\nUn hombre entró en un bar y solicitó al camarero un vaso de agua. Nunca antes se habían encontrado. El cantinero sacó un arma de debajo del mostrador y apuntó al hombre. El hombre dijo: “Gracias” y se fue. ¿Por qué?</string>
 
     <string name="solPuzzle1">El hombre es un enano. Alcanza el botón del ascensor de la planta baja pero no llega hasta el décimo piso. El del séptimo piso es el más alto al que llega.</string>
     <string name="solPuzzle2">Se subió a un bloque de hielo que con el tiempo se derritió.</string>
@@ -33,6 +33,7 @@
     <string name="solPuzzle7">Hombre en el bar El hombre tenía hipo. El cantinero lo reconoció por la forma de hablar y sacó su arma para darle un susto. Lo logró y le curó el hipo, por lo que el hombre se lo agradeció (y no necesitó el agua).</string>
 
     <string name="requestAnswer">Escriba su respuesta debajo</string>
+    <string name="summarize">(Una frase debería ser suficiente)</string>
     <string name="next">Siguiente</string>
     <string name="previous">Anterior</string>
 

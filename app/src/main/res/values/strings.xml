@@ -9,7 +9,7 @@
 
     <string name="titlePuzzle1">The man in the elevator</string>
     <string name="titlePuzzle2">The man who hanged himself</string>
-    <string name="titlePuzzle3">Lateral Thinking</string>
+    <string name="titlePuzzle3">The lonely man</string>
     <string name="titlePuzzle4">Death in the Field</string>
     <string name="titlePuzzle5">Anthony and Cleopatra</string>
     <string name="titlePuzzle6">Water and Wine</string>
@@ -21,7 +21,7 @@
     <string name="puzzle4">A man is lying dead in the field. Next to him is an unopened package. There is no other creature in the field. How did he die?</string>
     <string name="puzzle5">Anthony and Cleopatra were together in a house for the weekend. All the doors and windows were locked and no one else was in the house. On Monday the maid came in with a key and on opening the door of the main room she saw that there was broken glass on the floor although the windows were intact. Anthony was asleep in the chair. The maid knew instantly that Cleopatra had been killed although her body was nowhere to be found and no blood </string>
     <string name="puzzle6">You have two 1 liter mugs – one of them halfway filled with water and the other one halfway filled with wine. You pour 300ml water from the first mug into the second one, stir it well, then pour 300ml of the mix from the second mug back to the first one. Now, do you have more water in the first mug than you have wine in the second one?</string>
-    <string name="puzzle7">Because of its brevity, simplicity, and difficulty, this puzzle has some merits for being considered the best lateral thinking puzzle of all time. A man walks into a bar and asks the barman for a glass of water. The barman pulls out a gun and points it at the man. The man says "Thank you" and walks out.</string>
+    <string name="puzzle7">Because of its brevity, simplicity, and difficulty, this puzzle has some merits for being considered the best lateral thinking puzzle of all time.\nA man walks into a bar and asks the barman for a glass of water. The barman pulls out a gun and points it at the man. The man says "Thank you" and walks out.</string>
 
     <string name="solPuzzle1">The man is very short. Unless he has an umbrella or can ask other people to press the button for him, he cannot make the elevator go to the 10th floor</string>
     <string name="solPuzzle2">He climbed on a block of ice which has since melted</string>
@@ -32,6 +32,7 @@
     <string name="solPuzzle7">The man had hiccups. The barman recognised this from his speech and drew the gun in order to give him a shock. It worked and cured the hiccups - so the man no longer needed the water.</string>
 
     <string name="requestAnswer">Leave your answer down:</string>
+    <string name="summarize">(One sentence should be enough)</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/blackboard"
-    tools:context=".PuzzleActivity">
+    tools:context=".Puzzle4Activity">
 
     <TextView
         android:id="@+id/textView"
@@ -14,7 +14,7 @@
         android:layout_marginTop="32dp"
         android:fontFamily="casual"
         android:gravity="center"
-        android:text="@string/titlePuzzle1"
+        android:text="@string/titlePuzzle4"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="30sp"
@@ -34,7 +34,7 @@
         android:fontFamily="casual"
         android:justificationMode="inter_word"
         android:lineSpacingExtra="5dp"
-        android:text="@string/puzzle1"
+        android:text="@string/puzzle4"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,6 +104,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginBottom="24dp"
+        android:onClick="previousPuzzle"
         android:text="@string/previous"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,7 +117,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginBottom="24dp"
-        android:onClick="Next"
+        android:onClick="nextPuzzle"
         android:text="@string/next"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
