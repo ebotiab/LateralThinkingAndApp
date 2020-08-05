@@ -4,6 +4,7 @@
     <string name="app_name">Pensamiento Lateral</string>
 
     <string name="welcome">¿Está tu pensamiento lateral preparado?</string>
+    <string name="quiz">Empezar el cuestionario</string>
     <string name="menu">Accede al menu</string>
     <string name="appInfo">Sobre esta aplicación</string>
 
@@ -15,7 +16,7 @@
     <string name="titlePuzzle6">Agua y vino</string>
     <string name="titlePuzzle7">Hombre en el bar </string>
 
-    <string name="puzzle1">Para comenzar, he aquí uno de los más viejos y conocidos problemas de pensamiento lateral. Dice así: Un hombre vive en el décimo piso de un edificio. Cada día toma el ascensor hasta la planta baja para dirigirse al trabajo o ir de compras. Cuando regresa, siempre sube en el ascensor hasta el séptimo piso y luego por la escalera los restantes tres pisos hasta su apartamento en el décimo. ¿Por qué lo hace?</string>
+    <string name="puzzle1">Para comenzar, he aquí uno de los más viejos y conocidos problemas de pensamiento lateral.\nUn hombre vive en el décimo piso de un edificio. Cada día toma el ascensor hasta la planta baja para dirigirse al trabajo o ir de compras. Cuando regresa, siempre sube en el ascensor hasta el séptimo piso y luego por la escalera los restantes tres pisos hasta su apartamento en el décimo. ¿Por qué lo hace?</string>
     <string name="puzzle2">Hay un granero de madera que está totalmente vacío, excepto por un hombre que cuelga de la viga central. La soga con la que se ahorcó mide tres metros, y los pies penden a treinta centímetros del suelo. La pared más cercana se encuentra a seis metros. No es posible trepar ni a las paredes ni a la viga, y sin embargo el hombre se ahorcó a sí mismo.</string>
     <string name="puzzle3">Un hombre vivió solo en una casa durante dos meses. No recibió visitas ni nunca salió de la casa. Al final de los dos meses enloqueció. Una noche apagó el fuego y las luces y salió de la casa. Como consecuencia de su ida murieron 90 personas.</string>
     <string name="puzzle4">Un hombre yace muerto en un prado. Cerca de él hay un paquete cerrado. No hay ninguna otra criatura en el prado. ¿Cómo ha muerto?</string>
@@ -30,5 +31,9 @@
     <string name="solPuzzle5">Antonio es un gato y se comió cleopatra, que era un pez. El cristal roto es la pecera.</string>
     <string name="solPuzzle6">Ambos vasos están igualmente contaminados. El agua contiene exactamente tanto vino como el vino contiene agua. La demostración más elegante de este célebre acertijo es la siguiente. No importa cuántas transferencias se haga entre los vasos o si los contenidos son o no agitados. Siempre que los volúmenes en ambos vasos sean iguales, entonces cualquier cantidad de agua que no se encuentre en un vaso correspondiente debe estar en el vaso de vino: no hay otro lugar donde pueda estar. Por la misma razón, el vino que esa agua reemplaza debe estar en el vaso de agua. Por lo tanto, el vaso de agua contiene tanto vino como vino el de agua.</string>
     <string name="solPuzzle7">Hombre en el bar El hombre tenía hipo. El cantinero lo reconoció por la forma de hablar y sacó su arma para darle un susto. Lo logró y le curó el hipo, por lo que el hombre se lo agradeció (y no necesitó el agua).</string>
+
+    <string name="requestAnswer">Escriba su respuesta debajo</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
 
 </resources>

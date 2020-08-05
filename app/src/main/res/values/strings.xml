@@ -3,9 +3,9 @@
     <string name="app_name">Lateral Thinking</string>
 
     <string name="welcome">Is your lateral thinking ready?</string>
+    <string name="quiz">Start the quiz</string>
     <string name="menu">Display menu</string>
     <string name="appInfo">About the app</string>
-
 
     <string name="titlePuzzle1">The man in the elevator</string>
     <string name="titlePuzzle2">The man who hanged himself</string>
@@ -15,7 +15,7 @@
     <string name="titlePuzzle6">Water and Wine</string>
     <string name="titlePuzzle7">The man in the bar</string>
 
-    <string name="puzzle1">To start, here is one of the oldest and most well-known lateral thinking problems. Says so: A man lives on the tenth floor of a building. Every day he takes the elevator to go down to the ground floor to go to work or to go shopping. When he returns he takes the elevator to the seventh floor and walks up the stairs to reach his apartment on the tenth floor. why does he do it?</string>
+    <string name="puzzle1">To start, here is one of the oldest and most well-known lateral thinking problems.\nA man lives on the tenth floor of a building. Every day he takes the elevator to go down to the ground floor to go to work or to go shopping. When he returns he takes the elevator to the seventh floor and walks up the stairs to reach his apartment on the tenth floor. why does he do it?</string>
     <string name="puzzle2">There is a large wooden barn which is completely empty except for a dead man hanging from the middle of the central rafter. The rope around his neck is ten feet long and his feet are three feet off the ground. The nearest wall is 20 feet away from the man. It is not possible to climb up the walls or along the rafters. The man hanged himself. How did he do it?</string>
     <string name="puzzle3">A man lived alone in a house for two months. Nobody came to visit him and he never went out. At the end of that time, he became deranged. One night he put out the fire, turned off the lights, and walked out of the house. He was never seen or heard of again. His actions in leaving that house resulted in the deaths of 90 people. Why was that?</string>
     <string name="puzzle4">A man is lying dead in the field. Next to him is an unopened package. There is no other creature in the field. How did he die?</string>
@@ -30,5 +30,9 @@
     <string name="solPuzzle5">Anthony is a cat and he ate cleopatra which was a fish. the broken glass is the fishbowl.</string>
     <string name="solPuzzle6">If you have X ml water in the first mug, then in the second mug you have 500-X ml water and X ml wine. Therefore you have exactly as much water in the first mug as you have wine in the second one.</string>
     <string name="solPuzzle7">The man had hiccups. The barman recognised this from his speech and drew the gun in order to give him a shock. It worked and cured the hiccups - so the man no longer needed the water.</string>
+
+    <string name="requestAnswer">Leave your answer down:</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
 </resources>
