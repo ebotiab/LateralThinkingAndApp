@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    private void startQuiz (View view){
+    public void startQuiz (View view){
         Intent i = new Intent(this, PuzzleActivity.class);
         startActivity(i);
     }
