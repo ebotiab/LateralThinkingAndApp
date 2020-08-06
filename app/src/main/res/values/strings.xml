@@ -33,7 +33,9 @@
 
     <string name="requestAnswer">Leave your answer down:</string>
     <string name="summarize">(One sentence should be enough)</string>
+    <string name="retMenu">Return to menu</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="end">Submit answers</string>
 
 </resources>

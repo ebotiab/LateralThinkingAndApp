@@ -109,7 +109,8 @@
             android:layout_marginStart="24dp"
             android:layout_marginLeft="24dp"
             android:layout_marginBottom="24dp"
-            android:text="@string/previous"
+            android:onClick="returnMenu"
+            android:text="@string/retMenu"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

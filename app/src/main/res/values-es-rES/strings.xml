@@ -34,7 +34,10 @@
 
     <string name="requestAnswer">Escriba su respuesta debajo</string>
     <string name="summarize">(Una frase debería ser suficiente)</string>
+    <string name="retMenu">Volver al menú</string>
     <string name="next">Siguiente</string>
     <string name="previous">Anterior</string>
+    <string name="end">Subir respuestas</string>
+
 
 </resources>
