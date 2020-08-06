@@ -6,23 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Puzzle7Activity extends AppCompatActivity {
+public class Puzzle8Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_puzzle7);
-    }
-
-    //    Starts activity with the next puzzle
-    public void previousPuzzle (View view){
-        Intent i = new Intent(this, Puzzle6Activity.class);
-        startActivity(i);
+        setContentView(R.layout.activity_puzzle8);
     }
 
     //    Starts activity with the previous puzzle
-    public void nextPuzzle (View view){
-        Intent i = new Intent(this, Puzzle8Activity.class);
+    public void previousPuzzle (View view){
+        Intent i = new Intent(this, Puzzle6Activity.class);
         startActivity(i);
     }
 

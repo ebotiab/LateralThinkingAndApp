@@ -10,27 +10,39 @@
 
     <string name="titlePuzzle1">El hombre en el ascensor</string>
     <string name="titlePuzzle2">El hombre que se ahorcó</string>
-    <string name="titlePuzzle3">El hombre solitario</string>
+    <string name="titlePuzzle3">El laberinto</string>
     <string name="titlePuzzle4">Muerte en el campo</string>
     <string name="titlePuzzle5">Antonio y Cleopatra</string>
     <string name="titlePuzzle6">Agua y vino</string>
-    <string name="titlePuzzle7">Hombre en el bar </string>
+    <string name="titlePuzzle7">El hombre solitario</string>
+    <string name="titlePuzzle8">Hombre en el bar </string>
+
 
     <string name="puzzle1">Para comenzar, he aquí uno de los más viejos y conocidos problemas de pensamiento lateral.\nUn hombre vive en el décimo piso de un edificio. Cada día toma el ascensor hasta la planta baja para dirigirse al trabajo o ir de compras. Cuando regresa, siempre sube en el ascensor hasta el séptimo piso y luego por la escalera los restantes tres pisos hasta su apartamento en el décimo. ¿Por qué lo hace?</string>
     <string name="puzzle2">Hay un granero de madera que está totalmente vacío, excepto por un hombre que cuelga de la viga central. La soga con la que se ahorcó mide tres metros, y los pies penden a treinta centímetros del suelo. La pared más cercana se encuentra a seis metros. No es posible trepar ni a las paredes ni a la viga, y sin embargo el hombre se ahorcó a sí mismo.</string>
-    <string name="puzzle3">Un hombre vivió solo en una casa durante dos meses. No recibió visitas ni nunca salió de la casa. Al final de los dos meses enloqueció. Una noche apagó el fuego y las luces y salió de la casa. Como consecuencia de su ida murieron 90 personas.</string>
+    <string name="puzzle3">Estás escapando de un laberinto, y hay tres puertas frente a ti. La puerta de la izquierda conduce a un infierno. La puerta en el centro te lleva a un asesino mortal. La puerta de la derecha te conduce a un león que no ha comido en tres meses. ¿Qué puerta eliges?</string>
     <string name="puzzle4">Un hombre yace muerto en un prado. Cerca de él hay un paquete cerrado. No hay ninguna otra criatura en el prado. ¿Cómo ha muerto?</string>
     <string name="puzzle5">Anthony y Cleopatra estuvieron juntos en una casa durante el fin de semana. Todas las puertas y ventanas estaban cerradas y nadie más estaba en la casa. El lunes, la criada entró con una llave y al abrir la puerta de la habitación principal vio que había vidrios rotos en el piso, aunque las ventanas estaban intactas. Anthony estaba dormido en la silla. La criada supo al instante que Cleopatra había sido asesinada, aunque su cuerpo no se encontraba por ningún lado y no había sangre en ningún lado .......... ¿Cómo lo supo?</string>
     <string name="puzzle6">Sobre la mesa hay dos vasos. Uno contiene agua y el otro vino. Ambos contienen exactamente el mismo volumen de líquido. Si se toma una cucharada de agua del vaso correspondiente y se la vierte en el vaso de vino, y luego se toma una cucharada del vaso de vino y se la vierte en el de agua, ambos líquidos quedan contaminados. Pero, ¿cuál es el más contaminado? ¿Contiene el agua una mayor proporción de vino que el vino de agua o es al revés?</string>
-    <string name="puzzle7">Por su brevedad, simplicidad y dificultad, este acertijo tiene algunos méritos para ser considerado el mejor acertijo de pensamiento lateral de todos los tiempos.\nUn hombre entró en un bar y solicitó al camarero un vaso de agua. Nunca antes se habían encontrado. El cantinero sacó un arma de debajo del mostrador y apuntó al hombre. El hombre dijo: “Gracias” y se fue. ¿Por qué?</string>
+    <string name="puzzle7">Un hombre vivió solo en una casa durante dos meses. No recibió visitas ni nunca salió de la casa. Al final de los dos meses enloqueció. Una noche apagó el fuego y las luces y salió de la casa. Como consecuencia de su ida murieron 90 personas.</string>
+    <string name="puzzle8">Por su brevedad, simplicidad y dificultad, este acertijo tiene algunos méritos para ser considerado el mejor acertijo de pensamiento lateral de todos los tiempos.\nUn hombre entró en un bar y solicitó al camarero un vaso de agua. Nunca antes se habían encontrado. El cantinero sacó un arma de debajo del mostrador y apuntó al hombre. El hombre dijo: “Gracias” y se fue. ¿Por qué?</string>
 
     <string name="solPuzzle1">El hombre es un enano. Alcanza el botón del ascensor de la planta baja pero no llega hasta el décimo piso. El del séptimo piso es el más alto al que llega.</string>
     <string name="solPuzzle2">Se subió a un bloque de hielo que con el tiempo se derritió.</string>
-    <string name="solPuzzle3">El hombre era un farero, y la casa que habitaba era un faro en un promontorio rocoso remoto. Cuando dejó el lugar y apagó las luces desapareció el aviso a los navegantes. Como consecuencia hubo un naufragio en el que murieron 90 personas</string>
+    <string name="solPuzzle3">La puerta de la izquierda porque el león está muerto, dado que no hacomido en tres meses.</string>
     <string name="solPuzzle4">El hombre había saltado de un avión, pero su paracaídas no se había abierto. Era el paquete cerrado a su lado.</string>
     <string name="solPuzzle5">Antonio es un gato y se comió cleopatra, que era un pez. El cristal roto es la pecera.</string>
     <string name="solPuzzle6">Ambos vasos están igualmente contaminados. El agua contiene exactamente tanto vino como el vino contiene agua. La demostración más elegante de este célebre acertijo es la siguiente. No importa cuántas transferencias se haga entre los vasos o si los contenidos son o no agitados. Siempre que los volúmenes en ambos vasos sean iguales, entonces cualquier cantidad de agua que no se encuentre en un vaso correspondiente debe estar en el vaso de vino: no hay otro lugar donde pueda estar. Por la misma razón, el vino que esa agua reemplaza debe estar en el vaso de agua. Por lo tanto, el vaso de agua contiene tanto vino como vino el de agua.</string>
-    <string name="solPuzzle7">Hombre en el bar El hombre tenía hipo. El cantinero lo reconoció por la forma de hablar y sacó su arma para darle un susto. Lo logró y le curó el hipo, por lo que el hombre se lo agradeció (y no necesitó el agua).</string>
+    <string name="solPuzzle7">El hombre era un farero, y la casa que habitaba era un faro en un promontorio rocoso remoto. Cuando dejó el lugar y apagó las luces desapareció el aviso a los navegantes. Como consecuencia hubo un naufragio en el que murieron 90 personas</string>
+    <string name="solPuzzle8">Hombre en el bar El hombre tenía hipo. El cantinero lo reconoció por la forma de hablar y sacó su arma para darle un susto. Lo logró y le curó el hipo, por lo que el hombre se lo agradeció (y no necesitó el agua).</string>
+
+    <string name="puz3opt1">Puerta de la izquierda</string>
+    <string name="puz3opt2">Puerta del centro</string>
+    <string name="puz3opt3">Puerta de la derecha</string>
+
+    <string name="puz6opt1">El primero tiene más cantidad de agua</string>
+    <string name="puz6opt2">Ambos tienen la misma cantidad de agua</string>
+    <string name="puz6opt3">El segundo tiene más cantidad de agua</string>
 
     <string name="requestAnswer">Escriba su respuesta debajo</string>
     <string name="summarize">(Una frase debería ser suficiente)</string>
@@ -38,6 +50,5 @@
     <string name="next">Siguiente</string>
     <string name="previous">Anterior</string>
     <string name="end">Subir respuestas</string>
-
 
 </resources>
