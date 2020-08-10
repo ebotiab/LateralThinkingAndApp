@@ -17,9 +17,6 @@ public class Puzzle6Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle6);
 
-        TextView title = (TextView) findViewById(R.id.textView);
-        title.setText(String.valueOf(Score.results));
-
         Button nextButton=(Button)findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
