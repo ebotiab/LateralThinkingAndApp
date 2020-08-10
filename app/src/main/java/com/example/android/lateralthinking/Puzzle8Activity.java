@@ -27,7 +27,7 @@ public class Puzzle8Activity extends AppCompatActivity {
                 String[] validSols = new String[]{"hiccup", "hiccough", "hipo"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
                 Score.addResultEditText(answer, Arrays.asList(validSols));
-                Intent i = new Intent(getApplicationContext(), Puzzle6Activity.class);
+                Intent i = new Intent(getApplicationContext(), displayScoreActivity.class);
                 startActivity(i);
             }
         });

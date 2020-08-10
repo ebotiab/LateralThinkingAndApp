@@ -1,15 +1,10 @@
 package com.example.android.lateralthinking;
 
-import android.content.Intent;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 
 
@@ -24,5 +19,13 @@ public class Score {
         }else{
             Score.results.add(0);
         }
+    }
+
+    public static int sumScores() {
+        int sum = 0;
+        for (int i: results) {
+            sum += i;
+        }
+        return sum;
     }
 }

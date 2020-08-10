@@ -41,8 +41,5 @@ public class PuzzleActivity extends AppCompatActivity {
     //    Starts activity with the main activity
 
     //    Starts activity with the main activity
-    public void returnMenu (View view){
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
-    }
+
 }
