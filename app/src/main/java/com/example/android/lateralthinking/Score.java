@@ -14,10 +14,10 @@ public class Score {
 
     public static void addResultEditText(EditText answer, List<String> validSols){
         String answerText = answer.getText().toString();
-        if (validSols.contains(answerText)){
-            Score.results.add(1);
-        }else{
-            Score.results.add(0);
+        for (String i: validSols) {
+            if (answerText.contains(i)){
+                Score.results.add(1);
+            }
         }
     }
 
