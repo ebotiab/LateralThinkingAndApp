@@ -18,12 +18,17 @@ public class Puzzle5Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle5);
 
+        //    Avoid to an incorrect value of Score.results
+        Score.checkScore(4);
+
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String[] validSols = new String[]{"fish", "fishes", "pez", "peces"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
                 Score.checkAnswerEditText(answer, Arrays.asList(validSols));
+
+                //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle6Activity.class);
                 startActivity(i);
             }

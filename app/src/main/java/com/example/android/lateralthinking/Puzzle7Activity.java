@@ -16,12 +16,18 @@ public class Puzzle7Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle7);
+
+        //    Avoid to an incorrect value of Score.results
+        Score.checkScore(6);
+
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String[] validSols = new String[]{"lighthouse", "faro"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
                 Score.checkAnswerEditText(answer, Arrays.asList(validSols));
+
+                //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle8Activity.class);
                 startActivity(i);
             }

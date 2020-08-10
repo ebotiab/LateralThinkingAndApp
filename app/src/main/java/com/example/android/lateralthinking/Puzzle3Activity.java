@@ -23,6 +23,9 @@ public class Puzzle3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle3);
 
+        //    Avoid to an incorrect value of Score.results
+        Score.checkScore(2);
+
         Button nextButton=(Button)findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +40,8 @@ public class Puzzle3Activity extends AppCompatActivity {
                 if (answer.equals("Door in the right") || answer.equals("Puerta de la derecha")){
                     Score.results++;
                 }
+
+                //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle4Activity.class);
                 startActivity(i);
             }

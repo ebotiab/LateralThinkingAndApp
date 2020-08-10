@@ -17,6 +17,9 @@ public class Puzzle6Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle6);
 
+        //    Avoid to an incorrect value of Score.results
+        Score.checkScore(5);
+
         Button nextButton=(Button)findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +34,8 @@ public class Puzzle6Activity extends AppCompatActivity {
                 if (answer.equals("Both have same quantity of water") || answer.equals("Ambos tienen la misma cantidad de agua")){
                     Score.results++;
                 }
+
+                //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle7Activity.class);
                 startActivity(i);
             }
