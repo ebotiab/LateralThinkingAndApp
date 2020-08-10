@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import java.util.Arrays;
 
@@ -16,6 +17,10 @@ public class Puzzle8Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle8);
+
+//        TextView title = (TextView) findViewById(R.id.textView);
+//        title.setText(String.valueOf(Score.results));
+
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -27,12 +32,4 @@ public class Puzzle8Activity extends AppCompatActivity {
             }
         });
     }
-
-
-    //    Starts activity with the previous puzzle
-    public void submitAnwers (View view){
-        Intent i = new Intent(this, Puzzle6Activity.class);
-        startActivity(i);
-    }
-
 }

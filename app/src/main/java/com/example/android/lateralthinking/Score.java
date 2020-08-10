@@ -17,9 +17,9 @@ public class Score {
 
     public static List<Integer> results = new ArrayList<Integer>();
 
-    public static void addResultEditText(final EditText answer, final List<String> validSols){
+    public static void addResultEditText(EditText answer, List<String> validSols){
         String answerText = answer.getText().toString();
-        if (Arrays.asList(validSols).contains(answerText)){
+        if (validSols.contains(answerText)){
             Score.results.add(1);
         }else{
             Score.results.add(0);

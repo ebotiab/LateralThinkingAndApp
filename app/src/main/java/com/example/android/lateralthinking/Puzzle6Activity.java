@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 
 public class Puzzle6Activity extends AppCompatActivity {
 
@@ -12,18 +16,26 @@ public class Puzzle6Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle6);
-    }
 
-    //    Starts activity with the next puzzle
-    public void previousPuzzle (View view){
-        Intent i = new Intent(this, Puzzle5Activity.class);
-        startActivity(i);
-    }
+        TextView title = (TextView) findViewById(R.id.textView);
+        title.setText(String.valueOf(Score.results));
 
-    //    Starts activity with the previous puzzle
-    public void nextPuzzle (View view){
-        Intent i = new Intent(this, Puzzle7Activity.class);
-        startActivity(i);
-    }
+        Button nextButton=(Button)findViewById(R.id.button_next);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                RadioGroup radioAnswerGroup=(RadioGroup) findViewById(R.id.radioGroupAnswer);
+                int selectedId = radioAnswerGroup.getCheckedRadioButtonId();
+                RadioButton radioAnswerButton = (RadioButton) findViewById(selectedId);
+                if (radioAnswerButton.getText()=="Both have same quantity of water"){
+                    Score.results.add(1);
+                }else{
+                    Score.results.add(0);
+                }
+                Intent i = new Intent(getApplicationContext(), Puzzle7Activity.class);
+                startActivity(i);
+            }
+        });
 
+    }
 }
