@@ -18,15 +18,12 @@ public class Puzzle8Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle8);
 
-//        TextView title = (TextView) findViewById(R.id.textView);
-//        title.setText(String.valueOf(Score.results));
-
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String[] validSols = new String[]{"hiccup", "hiccough", "hipo"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
-                Score.addResultEditText(answer, Arrays.asList(validSols));
+                Score.checkAnswerEditText(answer, Arrays.asList(validSols));
                 Intent i = new Intent(getApplicationContext(), displayScoreActivity.class);
                 startActivity(i);
             }

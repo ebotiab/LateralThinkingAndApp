@@ -21,7 +21,7 @@ public class Puzzle7Activity extends AppCompatActivity {
             public void onClick(View view) {
                 String[] validSols = new String[]{"lighthouse", "faro"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
-                Score.addResultEditText(answer, Arrays.asList(validSols));
+                Score.checkAnswerEditText(answer, Arrays.asList(validSols));
                 Intent i = new Intent(getApplicationContext(), Puzzle8Activity.class);
                 startActivity(i);
             }

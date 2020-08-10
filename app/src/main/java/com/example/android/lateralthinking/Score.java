@@ -10,23 +10,15 @@ import java.util.List;
 
 public class Score {
 
-    public static List<Integer> results = new ArrayList<Integer>();
+    public static int results = 0;
 
-    public static void addResultEditText(EditText answer, List<String> validSols){
+    public static void checkAnswerEditText(EditText answer, List<String> validSols){
         String answerText = answer.getText().toString();
         for (String i: validSols) {
             if (answerText.contains(i)){
-                Score.results.add(1);
+                results++;
                 return;
             }
         }
-    }
-
-    public static int sumScores() {
-        int sum = 0;
-        for (int i: results) {
-            sum += i;
-        }
-        return sum;
     }
 }

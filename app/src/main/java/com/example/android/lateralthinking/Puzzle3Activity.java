@@ -35,7 +35,7 @@ public class Puzzle3Activity extends AppCompatActivity {
                 RadioButton radioAnswerButton = (RadioButton) findViewById(selectedId);
                 String answer = (String) radioAnswerButton.getText();
                 if (answer.equals("Door in the right") || answer.equals("Puerta de la derecha")){
-                    Score.results.add(1);
+                    Score.results++;
                 }
                 Intent i = new Intent(getApplicationContext(), Puzzle4Activity.class);
                 startActivity(i);

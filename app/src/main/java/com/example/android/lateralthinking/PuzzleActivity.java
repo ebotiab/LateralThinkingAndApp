@@ -27,7 +27,7 @@ public class PuzzleActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String[] validSols = new String[]{"dwarf", "short", "small", "enano", "bajo", "bajito", "pequeño"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
-                Score.addResultEditText(answer,Arrays.asList(validSols));
+                Score.checkAnswerEditText(answer,Arrays.asList(validSols));
                 Intent i = new Intent(getApplicationContext(), Puzzle2Activity.class);
                 startActivity(i);
             }

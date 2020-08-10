@@ -23,7 +23,7 @@ public class Puzzle5Activity extends AppCompatActivity {
             public void onClick(View view) {
                 String[] validSols = new String[]{"fish", "fishes", "pez", "peces"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
-                Score.addResultEditText(answer, Arrays.asList(validSols));
+                Score.checkAnswerEditText(answer, Arrays.asList(validSols));
                 Intent i = new Intent(getApplicationContext(), Puzzle6Activity.class);
                 startActivity(i);
             }
