@@ -27,7 +27,7 @@ public class Puzzle2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 String[] validSols = new String[]{"ice","hielo"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
-                Score.addResultEditText(answer,Arrays.asList(validSols));
+                Score.addResultEditText(answer, Arrays.asList(validSols));
                 Intent i = new Intent(getApplicationContext(), Puzzle3Activity.class);
                 startActivity(i);
             }

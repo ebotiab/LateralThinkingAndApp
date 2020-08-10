@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import java.util.Arrays;
 
@@ -23,7 +24,7 @@ public class Puzzle5Activity extends AppCompatActivity {
                 String[] validSols = new String[]{"fish", "fishes", "pez", "peces"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
                 Score.addResultEditText(answer, Arrays.asList(validSols));
-                Intent i = new Intent(getApplicationContext(), Puzzle2Activity.class);
+                Intent i = new Intent(getApplicationContext(), Puzzle6Activity.class);
                 startActivity(i);
             }
         });

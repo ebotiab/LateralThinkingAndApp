@@ -30,7 +30,8 @@ public class Puzzle6Activity extends AppCompatActivity {
                     return;
                 }
                 RadioButton radioAnswerButton = (RadioButton) findViewById(selectedId);
-                if (radioAnswerButton.getText()=="Both have same quantity of water"){
+                String answer = (String) radioAnswerButton.getText();
+                if (answer.equals("Both have same quantity of water") || answer.equals("Ambos tienen la misma cantidad de agua")){
                     Score.results.add(1);
                 }
                 Intent i = new Intent(getApplicationContext(), Puzzle7Activity.class);
