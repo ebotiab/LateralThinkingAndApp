@@ -29,11 +29,12 @@ public class Puzzle3Activity extends AppCompatActivity {
             public void onClick(View v) {
                 RadioGroup radioAnswerGroup=(RadioGroup) findViewById(R.id.radioGroupAnswer);
                 int selectedId = radioAnswerGroup.getCheckedRadioButtonId();
+                if (selectedId == -1){
+                    return;
+                }
                 RadioButton radioAnswerButton = (RadioButton) findViewById(selectedId);
                 if (radioAnswerButton.getText()=="Door in the right"){
                     Score.results.add(1);
-                }else{
-                    Score.results.add(0);
                 }
                 Intent i = new Intent(getApplicationContext(), Puzzle4Activity.class);
                 startActivity(i);

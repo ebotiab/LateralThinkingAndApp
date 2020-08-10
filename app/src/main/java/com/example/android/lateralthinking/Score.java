@@ -17,6 +17,7 @@ public class Score {
         for (String i: validSols) {
             if (answerText.contains(i)){
                 Score.results.add(1);
+                return;
             }
         }
     }
