@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 
 import java.util.Arrays;
@@ -23,11 +24,12 @@ public class Puzzle5Activity extends AppCompatActivity {
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String[] validSols = new String[]{"fish", "fishes", "pez", "peces"};
-                EditText answer = (EditText) findViewById(R.id.editTextAnswer);
-
-                //    Update the score if the answer contains one elem of validSols
-                Score.checkAnswerEditText(answer,Arrays.asList(validSols));
+                CheckBox george = (CheckBox) findViewById(R.id.checkBox);
+                CheckBox bill = (CheckBox) findViewById(R.id.checkBox2);
+                CheckBox henry = (CheckBox) findViewById(R.id.checkBox5);
+                if (george.isChecked() && bill.isChecked() && henry.isChecked()){
+                    Score.results++;
+                }
 
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle6Activity.class);

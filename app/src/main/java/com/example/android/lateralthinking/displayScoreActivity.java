@@ -30,7 +30,6 @@ public class displayScoreActivity extends AppCompatActivity {
         }else if (totalScore<2 && totalScore>=0){
             feedback.setText(R.string.keep_trying);
         }
-
     }
 
     //    Return to the principal menu

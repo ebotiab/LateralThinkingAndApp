@@ -18,7 +18,7 @@ public class PuzzleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_puzzle);
 
         //    Avoid to an incorrect value of Score.results
-        Score.checkScore(0);
+        Score.results = 0;
 
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
