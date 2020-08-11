@@ -3,11 +3,13 @@
 
     <string name="app_name">Pensamiento Lateral</string>
 
+    <!--    Main activity-->
     <string name="welcome">¿Está tu pensamiento lateral preparado?</string>
     <string name="quiz">Empezar el cuestionario</string>
     <string name="menu">Accede al menu</string>
     <string name="appInfo">Sobre esta aplicación</string>
 
+    <!--    Puzzle titles-->
     <string name="titlePuzzle1">El hombre en el ascensor</string>
     <string name="titlePuzzle2">El hombre que se ahorcó</string>
     <string name="titlePuzzle3">El laberinto</string>
@@ -17,7 +19,7 @@
     <string name="titlePuzzle7">El hombre solitario</string>
     <string name="titlePuzzle8">Hombre en el bar </string>
 
-
+    <!--    Puzzles-->
     <string name="puzzle1">Para comenzar, he aquí uno de los más viejos y conocidos problemas de pensamiento lateral.\nUn hombre vive en el décimo piso de un edificio. Cada día toma el ascensor hasta la planta baja para dirigirse al trabajo o ir de compras. Cuando regresa, siempre sube en el ascensor hasta el séptimo piso y luego por la escalera los restantes tres pisos hasta su apartamento en el décimo. ¿Por qué lo hace?</string>
     <string name="puzzle2">Hay un granero de madera que está totalmente vacío, excepto por un hombre que cuelga de la viga central. La soga con la que se ahorcó mide tres metros, y los pies penden a treinta centímetros del suelo. La pared más cercana se encuentra a seis metros. No es posible trepar ni a las paredes ni a la viga, y sin embargo el hombre se ahorcó a sí mismo.</string>
     <string name="puzzle3">Estás escapando de un laberinto, y hay tres puertas frente a ti. La puerta de la izquierda conduce a un infierno. La puerta en el centro te lleva a un asesino mortal. La puerta de la derecha te conduce a un león que no ha comido en tres meses. ¿Qué puerta eliges?</string>
@@ -27,6 +29,7 @@
     <string name="puzzle7">Un hombre vivió solo en una casa durante dos meses. No recibió visitas ni nunca salió de la casa. Al final de los dos meses enloqueció. Una noche apagó el fuego y las luces y salió de la casa. Como consecuencia de su ida murieron 90 personas.</string>
     <string name="puzzle8">Por su brevedad, simplicidad y dificultad, este acertijo tiene algunos méritos para ser considerado el mejor acertijo de pensamiento lateral de todos los tiempos.\nUn hombre entró en un bar y solicitó al camarero un vaso de agua. Nunca antes se habían encontrado. El cantinero sacó un arma de debajo del mostrador y apuntó al hombre. El hombre dijo: “Gracias” y se fue. ¿Por qué?</string>
 
+    <!--    Puzzle solutions-->
     <string name="solPuzzle1">El hombre es un enano. Alcanza el botón del ascensor de la planta baja pero no llega hasta el décimo piso. El del séptimo piso es el más alto al que llega.</string>
     <string name="solPuzzle2">Se subió a un bloque de hielo que con el tiempo se derritió.</string>
     <string name="solPuzzle3">La puerta de la izquierda porque el león está muerto, dado que no hacomido en tres meses.</string>
@@ -36,19 +39,35 @@
     <string name="solPuzzle7">El hombre era un farero, y la casa que habitaba era un faro en un promontorio rocoso remoto. Cuando dejó el lugar y apagó las luces desapareció el aviso a los navegantes. Como consecuencia hubo un naufragio en el que murieron 90 personas</string>
     <string name="solPuzzle8">Hombre en el bar El hombre tenía hipo. El cantinero lo reconoció por la forma de hablar y sacó su arma para darle un susto. Lo logró y le curó el hipo, por lo que el hombre se lo agradeció (y no necesitó el agua).</string>
 
+    <!--    Options to choose in Puzzle 3-->
     <string name="puz3opt1">Puerta de la izquierda</string>
     <string name="puz3opt2">Puerta del centro</string>
     <string name="puz3opt3">Puerta de la derecha</string>
 
+    <!--    Options to choose in Puzzle 6-->
     <string name="puz6opt1">El primero tiene más cantidad de agua</string>
     <string name="puz6opt2">Ambos tienen la misma cantidad de agua</string>
     <string name="puz6opt3">El segundo tiene más cantidad de agua</string>
 
+    <!--    Annotations to the user-->
     <string name="requestAnswer">Escriba su respuesta debajo</string>
     <string name="summarize">(Una frase debería ser suficiente)</string>
+
+    <!--    Button options-->
     <string name="retMenu">Volver al menú</string>
     <string name="next">Siguiente</string>
     <string name="previous">Anterior</string>
     <string name="end">Subir respuestas</string>
+
+    <!--    Feedback options-->
+    <string name="excellent">EXCELENTE XD</string>
+    <string name="very_good">MUY BIEN :)</string>
+    <string name="good">BIEN</string>
+    <string name="keep_trying">SIGUE INTENTÁNDOLO</string>
+
+    <!--    About the App-->
+    <string name="title_about_quiz">Sobre el cuestionario</string>
+    <string name="about_app">Seguramente estés acostumbrados a problemas en los que tengas que emplear la lógica paso a paso o a ayudarte de algunos conocimientos para resolverlos. Siento decirte que nada de eso te servirá esta vez. Los acertijos de Pensamiento Lateral requieren sobre todo creatividad y un punto de vista diferente a lo acostumbrado. Este cuestionario probará cuan desarrollada está esa parte juguetona de tu cerebro, a la que tanto nos cuesta despertar en los de problemas día a día.\nCuando termines el cuestionario puedes buscar las soluciones en internet. Los acertijos son por lo general bastante conocidos, así que no creo que tengas problemas. No obstante, te recomendaría que no buscaras la respuesta hasta que antes no te haya estallado la cabeza pensando. Descubrir por uno mismo la solución de un enrevesado acertijo es un placer que no debes perderte.</string>
+
 
 </resources>

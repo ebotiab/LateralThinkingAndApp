@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import java.util.Arrays;
 
@@ -26,7 +25,9 @@ public class Puzzle5Activity extends AppCompatActivity {
             public void onClick(View view) {
                 String[] validSols = new String[]{"fish", "fishes", "pez", "peces"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
-                Score.checkAnswerEditText(answer, Arrays.asList(validSols));
+
+                //    Update the score if the answer contains one elem of validSols
+                Score.checkAnswerEditText(answer,Arrays.asList(validSols));
 
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle6Activity.class);

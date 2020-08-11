@@ -2,11 +2,13 @@
 
     <string name="app_name">Lateral Thinking</string>
 
+    <!--    Main activity-->
     <string name="welcome">Is your lateral thinking ready?</string>
     <string name="quiz">Start the quiz</string>
     <string name="menu">Display menu</string>
     <string name="appInfo">About the app</string>
 
+    <!--    Puzzle titles-->
     <string name="titlePuzzle1">The man in the elevator</string>
     <string name="titlePuzzle2">The man who hanged himself</string>
     <string name="titlePuzzle3">The labyrinth</string>
@@ -16,6 +18,7 @@
     <string name="titlePuzzle7">The lonely man</string>
     <string name="titlePuzzle8">The man in the bar</string>
 
+    <!--    Puzzles-->
     <string name="puzzle1">To start, here is one of the oldest and most well-known lateral thinking problems.\nA man lives on the tenth floor of a building. Every day he takes the elevator to go down to the ground floor to go to work or to go shopping. When he returns he takes the elevator to the seventh floor and walks up the stairs to reach his apartment on the tenth floor. why does he do it?</string>
     <string name="puzzle2">There is a large wooden barn which is completely empty except for a dead man hanging from the middle of the central rafter. The rope around his neck is ten feet long and his feet are three feet off the ground. The nearest wall is 20 feet away from the man. It is not possible to climb up the walls or along the rafters. The man hanged himself. How did he do it?</string>
     <string name="puzzle3">You are escaping from a labyrinth, and there are three doors in front of you. The door on the left leads to hell. The door in the center takes you to a deadly assassin. The door on the right leads to a lion that has not eaten in three months. Which door do you choose?</string>
@@ -25,6 +28,7 @@
     <string name="puzzle7">A man lived alone in a house for two months. Nobody came to visit him and he never went out. At the end of that time, he became deranged. One night he put out the fire, turned off the lights, and walked out of the house. He was never seen or heard of again. His actions in leaving that house resulted in the deaths of 90 people. Why was that?</string>
     <string name="puzzle8">Because of its brevity, simplicity, and difficulty, this puzzle has some merits for being considered the best lateral thinking puzzle of all time.\nA man walks into a bar and asks the barman for a glass of water. The barman pulls out a gun and points it at the man. The man says "Thank you" and walks out.</string>
 
+    <!--    Puzzle solutions-->
     <string name="solPuzzle1">The man is very short. Unless he has an umbrella or can ask other people to press the button for him, he cannot make the elevator go to the 10th floor</string>
     <string name="solPuzzle2">He climbed on a block of ice which has since melted</string>
     <string name="solPuzzle3">The door of the right because the lion is dead, since it has not eaten in three months</string>
@@ -34,19 +38,35 @@
     <string name="solPuzzle7">The man was a lighthouse keeper, and the house he lived in was a lighthouse on a remote rocky outcrop. When he left the place and turned off the lights, the notice to the navigators disappeared. As a consequence there was a shipwreck in which 90 people died</string>
     <string name="solPuzzle8">The man had hiccups. The barman recognised this from his speech and drew the gun in order to give him a shock. It worked and cured the hiccups - so the man no longer needed the water.</string>
 
+    <!--    Options to choose in Puzzle 3-->
     <string name="puz3opt1">Door on the left</string>
     <string name="puz3opt2">Door in the center</string>
     <string name="puz3opt3">Door in right</string>
 
+    <!--    Options to choose in Puzzle 6-->
     <string name="puz6opt1">The first has more quantity of water</string>
     <string name="puz6opt2">Both have same quantity of water</string>
     <string name="puz6opt3">The second has more quantity of water</string>
 
+    <!--    Annotations to the user-->
     <string name="requestAnswer">Leave your answer down:</string>
     <string name="summarize">(One sentence should be enough)</string>
+
+    <!--    Button options-->
     <string name="retMenu">Return to menu</string>
     <string name="next">Next puzzle</string>
     <string name="previous">Previous</string>
     <string name="end">Submit answers</string>
+
+    <!--    Feedback options-->
+    <string name="excellent">EXCELLENT XD</string>
+    <string name="very_good">VERY GOOD :)</string>
+    <string name="good">GOOD</string>
+    <string name="keep_trying">KEEP TRYING</string>
+
+    <!--    About the App-->
+    <string name="title_about_quiz">About the quiz</string>
+    <string name="about_app">Surely you are used to problems in which you use logic step by step or employ some knowledges to solve them. I am sorry to tell you that none of that will do you this time. Lateral Thinking puzzles require above all creativity and a different point of view than usual. This questionnaire will test how developed that playful part of your brain is, which sometimes is so difficult for us to wake up in the day to day problems.\nWhen you finish, you can search internet for solutions. The puzzles are generally quite popular, so I do not think you have problems. However, I would recommend that you do not search for the answer until your head has exploded first thinking. Realizing the solution by yourself is a pleasure that you should not loose.</string>
+
 
 </resources>

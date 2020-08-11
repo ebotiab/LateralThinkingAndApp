@@ -19,4 +19,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, PuzzleActivity.class);
         startActivity(i);
     }
+
+    //    Starts the activity with information about the quiz
+    public void aboutQuiz (View view){
+        Intent i = new Intent(this,AboutTheAppActivity.class);
+        startActivity(i);
+    }
 }

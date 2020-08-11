@@ -4,16 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.List;
 
 public class Puzzle2Activity extends AppCompatActivity {
 
@@ -30,7 +25,9 @@ public class Puzzle2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 String[] validSols = new String[]{"ice","hielo"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
-                Score.checkAnswerEditText(answer, Arrays.asList(validSols));
+
+                //    Update the score if the answer contains one elem of validSols
+                Score.checkAnswerEditText(answer,Arrays.asList(validSols));
 
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle3Activity.class);

@@ -52,6 +52,7 @@
             android:layout_marginTop="32dp"
             android:background="@android:color/transparent"
             android:fontFamily="casual"
+            android:onClick="aboutQuiz"
             android:text="@string/appInfo"
             android:textColor="@android:color/white"
             android:textSize="30sp"

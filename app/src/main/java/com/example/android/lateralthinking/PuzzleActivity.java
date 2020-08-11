@@ -4,16 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.List;
 
 public class PuzzleActivity extends AppCompatActivity {
 
@@ -30,6 +25,7 @@ public class PuzzleActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String[] validSols = new String[]{"dwarf", "short", "small", "enano", "bajo", "bajito", "pequeño"};
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
+
                 //    Update the score if the answer contains one elem of validSols
                 Score.checkAnswerEditText(answer,Arrays.asList(validSols));
 
@@ -39,13 +35,4 @@ public class PuzzleActivity extends AppCompatActivity {
             }
         });
     }
-//
-//    public void nextActivity (){
-//        Intent i = new Intent(this, Puzzle2Activity.class);
-//        startActivity(i);
-//    }
-    //    Starts activity with the main activity
-
-    //    Starts activity with the main activity
-
 }
