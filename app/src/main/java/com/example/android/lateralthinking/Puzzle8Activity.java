@@ -2,13 +2,15 @@ package com.example.android.lateralthinking;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.Arrays;
+
+import static com.example.android.lateralthinking.Score.results;
 
 public class Puzzle8Activity extends AppCompatActivity {
 
@@ -29,10 +31,29 @@ public class Puzzle8Activity extends AppCompatActivity {
                 //    Update the score if the answer contains one elem of validSols
                 Score.checkAnswerEditText(answer,Arrays.asList(validSols));
 
-                //    Starts the activity that displays the score obtained
-                Intent i = new Intent(getApplicationContext(), displayScoreActivity.class);
-                startActivity(i);
+                //    Displays a message with the results of the quiz and a feedback
+                String message = displayScoreMessage();
+                Toast.makeText(Puzzle8Activity.this, message, Toast.LENGTH_LONG).show();
             }
         });
+    }
+
+    //    Creates the message to display when the quiz is finished
+    public String displayScoreMessage(){
+        String scoreMessage = "Your score is " + results + "/8\n";
+
+        //        Update the feedback TextView depending of the score obtained
+        if (results==8){
+            scoreMessage += this.getString(R.string.excellent);
+        }else if (results<8 && results>5){
+            scoreMessage += this.getString(R.string.very_good);
+        }else if (results<5 && results>2){
+            scoreMessage += this.getString(R.string.good);
+        }else if (results<2 && results>=0){
+            scoreMessage += this.getString(R.string.keep_trying);
+        }
+
+
+        return scoreMessage;
     }
 }

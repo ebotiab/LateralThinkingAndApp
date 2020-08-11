@@ -2,10 +2,7 @@ package com.example.android.lateralthinking;
 
 import android.widget.EditText;
 
-import java.util.ArrayList;
 import java.util.List;
-
-
 
 
 public class Score {
@@ -29,4 +26,6 @@ public class Score {
             numberOfAnswers--;
         }
     }
+
+
 }
