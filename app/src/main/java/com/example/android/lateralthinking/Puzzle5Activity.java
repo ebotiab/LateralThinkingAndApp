@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.Arrays;
 
@@ -27,10 +28,11 @@ public class Puzzle5Activity extends AppCompatActivity {
                 CheckBox george = (CheckBox) findViewById(R.id.checkBox);
                 CheckBox bill = (CheckBox) findViewById(R.id.checkBox2);
                 CheckBox henry = (CheckBox) findViewById(R.id.checkBox5);
-                if (george.isChecked() && bill.isChecked() && henry.isChecked()){
+                CheckBox anthony = (CheckBox) findViewById(R.id.checkBox3);
+                CheckBox fred = (CheckBox) findViewById(R.id.checkBox4);
+                if (george.isChecked() && bill.isChecked() && henry.isChecked() && !anthony.isChecked() && !fred.isChecked()){
                     Score.results++;
                 }
-
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle6Activity.class);
                 startActivity(i);
