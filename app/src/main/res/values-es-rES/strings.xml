@@ -81,5 +81,6 @@
     <string name="title_about_quiz">Sobre el cuestionario</string>
     <string name="about_app">Seguramente estés acostumbrados a problemas en los que tengas que emplear la lógica paso a paso o a ayudarte de algunos conocimientos para resolverlos. Siento decirte que nada de eso te servirá esta vez. Los acertijos de Pensamiento Lateral requieren sobre todo creatividad y un punto de vista diferente a lo acostumbrado. Este cuestionario probará cuan desarrollada está esa parte juguetona de tu cerebro, a la que tanto nos cuesta despertar en los de problemas día a día.\nCuando termines el cuestionario puedes buscar las soluciones en internet. Los acertijos son por lo general bastante conocidos, así que no creo que tengas problemas. No obstante, te recomendaría que no buscaras la respuesta hasta que antes no te haya estallado la cabeza pensando. Descubrir por uno mismo la solución de un enrevesado acertijo es un placer que no debes perderte.</string>
 
+    <string name="score_is">\"Tu puntuación es \"</string>
 
 </resources>

@@ -39,8 +39,8 @@ public class Puzzle8Activity extends AppCompatActivity {
     }
 
     //    Creates the message to display when the quiz is finished
-    public String displayScoreMessage(){
-        String scoreMessage = "Your score is " + results + "/8\n";
+    private String displayScoreMessage(){
+        String scoreMessage = getString(R.string.score_is) + results + "/8\n";
 
         //        Update the feedback TextView depending of the score obtained
         if (results==8){

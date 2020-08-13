@@ -33,6 +33,7 @@ public class Puzzle5Activity extends AppCompatActivity {
                 if (george.isChecked() && bill.isChecked() && henry.isChecked() && !anthony.isChecked() && !fred.isChecked()){
                     Score.results++;
                 }
+
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle6Activity.class);
                 startActivity(i);

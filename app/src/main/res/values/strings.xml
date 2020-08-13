@@ -79,6 +79,7 @@
     <!--    About the App-->
     <string name="title_about_quiz">About the quiz</string>
     <string name="about_app">Surely you are used to problems in which you use logic step by step or employ some knowledges to solve them. I am sorry to tell you that none of that will do you this time. Lateral Thinking puzzles require above all creativity and a different point of view than usual. This questionnaire will test how developed that playful part of your brain is, which sometimes is so difficult for us to wake up in the day to day problems.\nWhen you finish, you can search internet for solutions. The puzzles are generally quite popular, so I do not think you have problems. However, I would recommend that you do not search for the answer until your head has exploded first thinking. Realizing the solution by yourself is a pleasure that you should not loose.</string>
+    <string name="score_is">\"Your score is \"</string>
 
 
 </resources>
