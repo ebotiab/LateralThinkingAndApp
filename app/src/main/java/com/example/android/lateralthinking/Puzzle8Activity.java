@@ -20,9 +20,6 @@ public class Puzzle8Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle8);
 
-        //    Avoid to an incorrect value of Score.results
-        Score.checkScore(7);
-
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -69,5 +66,6 @@ public class Puzzle8Activity extends AppCompatActivity {
     public void returnMenu (View view){
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
+        finish();
     }
 }

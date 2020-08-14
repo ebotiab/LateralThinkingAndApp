@@ -17,9 +17,6 @@ public class Puzzle4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle4);
 
-        //    Avoid to an incorrect value of Score.results
-        Score.checkScore(3);
-
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -32,6 +29,7 @@ public class Puzzle4Activity extends AppCompatActivity {
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle5Activity.class);
                 startActivity(i);
+                finish();
             }
         });
     }

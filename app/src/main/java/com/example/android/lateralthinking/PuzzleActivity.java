@@ -32,6 +32,7 @@ public class PuzzleActivity extends AppCompatActivity {
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle2Activity.class);
                 startActivity(i);
+                finish();
             }
         });
     }
