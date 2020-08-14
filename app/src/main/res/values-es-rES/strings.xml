@@ -66,7 +66,7 @@
     <string name="summarize">(Una frase debería ser suficiente)</string>
 
     <!--    Button options-->
-    <string name="retMenu">Volver al menú</string>
+    <string name="retMenu">Volver a intentarlo</string>
     <string name="next">Siguiente</string>
     <string name="previous">Anterior</string>
     <string name="end">Subir respuestas</string>

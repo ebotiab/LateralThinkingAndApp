@@ -2,6 +2,7 @@ package com.example.android.lateralthinking;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,7 +27,7 @@ public class Puzzle8Activity extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String[] validSols = new String[]{"hiccup", "hiccough", "hipo"};
-                EditText answer = (EditText) findViewById(R.id.editTextAnswer);
+                EditText answer = findViewById(R.id.editTextAnswer);
 
                 //    Update the score if the answer contains one elem of validSols
                 Score.checkAnswerEditText(answer,Arrays.asList(validSols));
@@ -34,6 +35,13 @@ public class Puzzle8Activity extends AppCompatActivity {
                 //    Displays a message with the results of the quiz and a feedback
                 String message = displayScoreMessage();
                 Toast.makeText(Puzzle8Activity.this, message, Toast.LENGTH_LONG).show();
+
+                //    Disable the last button
+                view.setEnabled(false);
+
+                //    Enable the retMenu button
+                Button retMenu = findViewById(R.id.retMenu);
+                retMenu.setVisibility(View.VISIBLE);
             }
         });
     }
@@ -42,7 +50,7 @@ public class Puzzle8Activity extends AppCompatActivity {
     private String displayScoreMessage(){
         String scoreMessage = getString(R.string.score_is) + results + "/8\n";
 
-        //        Update the feedback TextView depending of the score obtained
+        //    Update the feedback TextView depending of the score obtained
         if (results==8){
             scoreMessage += this.getString(R.string.excellent);
         }else if (results<8 && results>5){
@@ -55,5 +63,11 @@ public class Puzzle8Activity extends AppCompatActivity {
 
 
         return scoreMessage;
+    }
+
+    //    Return to the principal menu
+    public void returnMenu (View view){
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
     }
 }

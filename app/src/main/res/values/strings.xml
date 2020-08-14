@@ -65,7 +65,7 @@
     <string name="summarize">(One sentence should be enough)</string>
 
     <!--    Button options-->
-    <string name="retMenu">Return to menu</string>
+    <string name="retMenu">Try again</string>
     <string name="next">Next puzzle</string>
     <string name="previous">Previous</string>
     <string name="end">Submit answers</string>
