@@ -23,6 +23,7 @@ public class displayScoreActivity extends AppCompatActivity {
         int totalScore = Score.computeScore();
         scoreTextView.setText(totalScore+"/7");
 
+        //        Create list with the imageViews id of the puzzles results
         List<Integer> puzListImViews = new ArrayList<Integer>();
 
         int puz1ImageView = R.id.result_puz1;
@@ -46,6 +47,7 @@ public class displayScoreActivity extends AppCompatActivity {
         int puz7ImageView = R.id.result_puz7;
         puzListImViews.add(puz7ImageView);
 
+        //        Change the images basing in the user answers
         for(int i=0;i<7;i++){
             ImageView currentPuzImageViews = findViewById(puzListImViews.get(i));
             if (Score.puzResults.get(i)==1){
