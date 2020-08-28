@@ -20,7 +20,7 @@ public class Score {
     }
 
     public static void initPuzResults(){
-        Integer[] integers = new Integer[8];    // all elements are null
+        Integer[] integers = new Integer[7];    // all elements are null
         Arrays.fill(integers, 0);
         List<Integer> list = Arrays.asList(integers);
         puzResults = list;

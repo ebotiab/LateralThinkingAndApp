@@ -1,212 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/writing_exam"
-    tools:context=".displayScoreActivity">
+    tools:context=".displayScoreActivity"
+    android:fillViewport="true">
 
-    <TextView
-        android:id="@+id/finalScore"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:fontFamily="@font/aldrich"
-        android:text="10/10"
-        android:textColor="#FF0000"
-        android:textSize="100sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/writing_exam">
 
-    <TextView
-        android:id="@+id/feedback"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:gravity="center_horizontal"
-        android:text="EXCELENT"
-        android:textColor="#E91E63"
-        android:textSize="50sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/finalScore" />
+        <TextView
+            android:id="@+id/finalScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/aldrich"
+            android:text="7/7"
+            android:textColor="#FF0000"
+            android:textSize="100sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:onClick="returnMenu"
-        android:text="@string/retMenu"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_horizontal"
+            android:text="EXCELENT"
+            android:textColor="#E91E63"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/finalScore" />
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="#80FFFFFF"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/feedback">
-
-        <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/result_puz1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="19dp"
-                android:src="@drawable/wrong_cross" />
-
-            <ImageView
-                android:id="@+id/result_puz2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="17dp"
-                android:src="@drawable/wrong_cross" />
-
-            <ImageView
-                android:id="@+id/result_puz3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="17dp"
-                android:src="@drawable/wrong_cross" />
-
-            <ImageView
-                android:id="@+id/result_puz4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="17dp"
-                android:src="@drawable/wrong_cross" />
-
-            <ImageView
-                android:id="@+id/result_puz5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="17dp"
-                android:src="@drawable/wrong_cross" />
-
-            <ImageView
-                android:id="@+id/result_puz6"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="17dp"
-                android:src="@drawable/wrong_cross" />
-
-            <ImageView
-                android:id="@+id/result_puz7"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="17dp"
-                android:src="@drawable/wrong_cross" />
-        </LinearLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:onClick="returnMenu"
+            android:text="@string/retMenu"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedback">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="0dp"
-                android:fontFamily="casual"
-                android:text="@string/titlePuzzle1"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="0dp"
-                android:fontFamily="casual"
-                android:text="@string/titlePuzzle2"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/result_puz1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/wrong_cross" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="0dp"
-                android:fontFamily="casual"
-                android:text="@string/titlePuzzle3"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/result_puz2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/wrong_cross" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="0dp"
-                android:fontFamily="casual"
-                android:text="@string/titlePuzzle4"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/result_puz3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/wrong_cross" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="0dp"
-                android:fontFamily="casual"
-                android:text="@string/titlePuzzle5"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/result_puz4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/wrong_cross" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="0dp"
-                android:fontFamily="casual"
-                android:text="@string/titlePuzzle6"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/result_puz5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/wrong_cross" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="0dp"
-                android:fontFamily="casual"
-                android:text="@string/titlePuzzle7"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/result_puz6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/wrong_cross" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="0dp"
-                android:fontFamily="casual"
-                android:text="@string/titlePuzzle8"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/result_puz7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/wrong_cross" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="casual"
+                    android:text="@string/titlePuzzle1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="casual"
+                    android:text="@string/titlePuzzle2"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="casual"
+                    android:text="@string/titlePuzzle3"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="casual"
+                    android:text="@string/titlePuzzle5"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="casual"
+                    android:text="@string/titlePuzzle6"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="casual"
+                    android:text="@string/titlePuzzle7"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="casual"
+                    android:text="@string/titlePuzzle8"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

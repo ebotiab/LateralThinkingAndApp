@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Puzzle5Activity"
+    tools:context=".Puzzle6Activity"
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,7 +19,7 @@
             android:layout_marginTop="32dp"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="@string/titlePuzzle5"
+            android:text="@string/titlePuzzle6"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="30sp"
@@ -39,95 +39,71 @@
             android:fontFamily="casual"
             android:justificationMode="inter_word"
             android:lineSpacingExtra="5dp"
-            android:text="@string/puzzle5"
+            android:text="@string/puzzle6"
             android:textColor="@android:color/white"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+        <RadioGroup
+            android:id="@+id/radioGroupAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView2">
+
+            <RadioButton
+                android:id="@+id/puz6opt1_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/puz6opt1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white" />
+
+
+            <RadioButton
+                android:id="@+id/puz6opt2_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="casual"
+                android:text="@string/puz6opt2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                app:layout_constraintTop_toBottomOf="@id/puz6opt1_radio_button" />
+
+            <RadioButton
+                android:id="@+id/puz6opt3_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="casual"
+                android:text="@string/puz6opt3"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                app:layout_constraintTop_toBottomOf="@id/puz6opt2_radio_button" />
+
+        </RadioGroup>
+
         <Button
             android:id="@+id/button_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="130dp"
             android:layout_marginBottom="24dp"
+            android:onClick="nextPuzzle"
             android:text="@string/next"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
-
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="32dp"
-            android:text="@string/george"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            tools:fontFamily="casual" />
-
-        <CheckBox
-            android:id="@+id/checkBox4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/fred"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox2"
-            tools:fontFamily="casual" />
-
-        <CheckBox
-            android:id="@+id/checkBox5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/henry"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox4"
-            tools:fontFamily="casual" />
-
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/bill"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox3"
-            tools:fontFamily="casual" />
-
-        <CheckBox
-            android:id="@+id/checkBox3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/anthony"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox"
-            tools:fontFamily="casual" />
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupAnswer" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
