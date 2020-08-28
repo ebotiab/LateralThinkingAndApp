@@ -16,8 +16,10 @@ public class displayScoreActivity extends AppCompatActivity {
 
         //        Update the finalScore TextView with the score obtained
         TextView finalScore = (TextView) findViewById(R.id.finalScore);
-        int totalScore = Score.results;
+        int totalScore = Score.computeScore();
         finalScore.setText(totalScore+"/8");
+
+
 
         //        Update the feedback TextView depending of the score obtained
         TextView feedback = (TextView) findViewById(R.id.feedback);

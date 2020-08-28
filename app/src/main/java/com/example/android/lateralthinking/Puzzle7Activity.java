@@ -24,7 +24,7 @@ public class Puzzle7Activity extends AppCompatActivity {
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
 
                 //    Update the score if the answer contains one elem of validSols
-                Score.checkAnswerEditText(answer,Arrays.asList(validSols));
+                Score.checkAnswerEditText(answer,Arrays.asList(validSols),7);
 
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle8Activity.class);

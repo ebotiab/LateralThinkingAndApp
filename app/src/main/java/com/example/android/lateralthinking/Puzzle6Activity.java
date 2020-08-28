@@ -30,7 +30,7 @@ public class Puzzle6Activity extends AppCompatActivity {
 
                     //    If the correct RadioButton has been selected, the score is updated
                     if (answer.equals("Both have same quantity of water") || answer.equals("Ambos tienen la misma cantidad de agua")){
-                        Score.results++;
+                        Score.puzResults.set(5, 1);
                     }
 
                     //    Starts the activity with the next question of the quiz

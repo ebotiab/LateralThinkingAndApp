@@ -28,7 +28,7 @@ public class Puzzle5Activity extends AppCompatActivity {
                 CheckBox anthony = (CheckBox) findViewById(R.id.checkBox3);
                 CheckBox fred = (CheckBox) findViewById(R.id.checkBox4);
                 if (george.isChecked() && bill.isChecked() && henry.isChecked() && !anthony.isChecked() && !fred.isChecked()){
-                    Score.results++;
+                    Score.puzResults.set(4, 1);
                 }
 
                 //    Starts the activity with the next question of the quiz

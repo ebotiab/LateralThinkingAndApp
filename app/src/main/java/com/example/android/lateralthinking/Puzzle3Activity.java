@@ -33,7 +33,7 @@ public class Puzzle3Activity extends AppCompatActivity {
 
                     //    If the correct RadioButton has been selected, the score is updated
                     if (answer.equals("Right door") || answer.equals("Puerta de la derecha")){
-                        Score.results++;
+                        Score.puzResults.set(2, 1);
                     }
 
                     //    Starts the activity with the next question of the quiz

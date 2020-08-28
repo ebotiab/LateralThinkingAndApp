@@ -17,8 +17,8 @@ public class PuzzleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle);
 
-        //    Avoid to an incorrect value of Score.results
-        Score.results = 0;
+        //    Initialize the results of the puzzles
+        Score.initPuzResults();
 
         Button nextButton = (Button) findViewById(R.id.button_next);
         nextButton.setOnClickListener(new View.OnClickListener() {
@@ -27,7 +27,7 @@ public class PuzzleActivity extends AppCompatActivity {
                 EditText answer = (EditText) findViewById(R.id.editTextAnswer);
 
                 //    Update the score if the answer contains one elem of validSols
-                Score.checkAnswerEditText(answer,Arrays.asList(validSols));
+                Score.checkAnswerEditText(answer,Arrays.asList(validSols),1);
 
                 //    Starts the activity with the next question of the quiz
                 Intent i = new Intent(getApplicationContext(), Puzzle2Activity.class);

@@ -11,8 +11,6 @@ import android.widget.Toast;
 
 import java.util.Arrays;
 
-import static com.example.android.lateralthinking.Score.results;
-
 public class Puzzle8Activity extends AppCompatActivity {
 
     @Override
@@ -27,45 +25,13 @@ public class Puzzle8Activity extends AppCompatActivity {
                 EditText answer = findViewById(R.id.editTextAnswer);
 
                 //    Update the score if the answer contains one elem of validSols
-                Score.checkAnswerEditText(answer,Arrays.asList(validSols));
+                Score.checkAnswerEditText(answer,Arrays.asList(validSols),8);
 
-                //    Displays a message with the results of the quiz and a feedback
-                String message = displayScoreMessage();
-                Toast.makeText(Puzzle8Activity.this, message, Toast.LENGTH_LONG).show();
-
-                //    Disable the last button
-                view.setEnabled(false);
-
-                //    Enable the retMenu button
-                Button retMenu = findViewById(R.id.retMenu);
-                retMenu.setVisibility(View.VISIBLE);
+                //    Starts the activity with that displays the score of the quiz
+                Intent i = new Intent(getApplicationContext(), displayScoreActivity.class);
+                startActivity(i);
+                finish();
             }
         });
-    }
-
-    //    Creates the message to display when the quiz is finished
-    private String displayScoreMessage(){
-        String scoreMessage = getString(R.string.score_is) + results + "/8\n";
-
-        //    Update the feedback TextView depending of the score obtained
-        if (results==8){
-            scoreMessage += this.getString(R.string.excellent);
-        }else if (results<8 && results>5){
-            scoreMessage += this.getString(R.string.very_good);
-        }else if (results<5 && results>2){
-            scoreMessage += this.getString(R.string.good);
-        }else if (results<2 && results>=0){
-            scoreMessage += this.getString(R.string.keep_trying);
-        }
-
-
-        return scoreMessage;
-    }
-
-    //    Return to the principal menu
-    public void returnMenu (View view){
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
-        finish();
     }
 }
