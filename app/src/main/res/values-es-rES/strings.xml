@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Pensamiento Lateral</string>
+    <string name="app_name">LT QUIZ</string>
 
     <!--    Main activity-->
     <string name="welcome">¿Está tu pensamiento lateral preparado?</string>
